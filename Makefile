@@ -55,6 +55,6 @@ $(LIB):
 			@cd $(LIBDIR) && make clean
 			@cd $(LIBDIR) && mv $(LIB) ../
 
-.PHONY:		all clean fclean c.o re bonus
+.PHONY:		all clean fclean c.o re
 
 
